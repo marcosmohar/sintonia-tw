@@ -1,82 +1,99 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Nav from "../components/nav";
+import Hero from "../components/hero";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 font-poppin">
       <Head>
-        <title>Create Next App</title>
+        <title>Sintonia.Soy | Lo que buscas cuando te buscas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+      <Nav />
+      <div className="bg-sintopurple-500 w-full text-white">
+        <Hero />
+        <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center lg:my-40 ">
+          <section className="min-h-screen flex content-center ">
+            <div className="max-w-screen-xl p-4 bg-transparent dark:bg-gray-800 mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
+              <div className="relative">
+                <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+                  <div className="lg:col-start-2 lg:max-w-2xl ml-auto">
+                    <p className="text-base leading-6 text-sintopurple-100 font-semibold uppercase">
+                      Interactive
+                    </p>
+                    <h4 className="mt-2 text-2xl leading-8 font-extrabold text-green-300 dark:text-white sm:text-3xl sm:leading-9">
+                      Interactivity between team members is the key of the
+                      success.
+                    </h4>
+                    <p className="mt-4 text-lg leading-6 text-gray-100 dark:text-gray-300">
+                      Diseñamos experiencias de Bienestar y Felicidad. Enfocados
+                      en los 4 ejes que Sintonía sigue para determinar
+                      bienestar.
+                    </p>
+                    <p className="flex justify-center mt-8">
+                      <img className="w-full px-8" src="/ejes.svg" alt="" />
+                    </p>
+                  </div>
+                  <div className="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
+                    <div className="relative space-y-4">
+                      <div className="flex items-end justify-center lg:justify-start space-x-4">
+                        <figure className="relative">
+                          <img
+                            className="rounded-lg shadow-lg w-32 md:w-56 filter brightness-75"
+                            width="200"
+                            src="/fridge-portrait.jpg"
+                            alt="1"
+                          />
+                          <figcaption className="absolute bottom-1 left-4 text-purple-100 shadow">
+                            ¿Hambre o ansiedad?
+                          </figcaption>
+                        </figure>
+                        <figure className="relative">
+                          <img
+                            className="rounded-lg shadow-lg w-40 md:w-64"
+                            width="260"
+                            src="/enneagram.jpg"
+                            alt="2"
+                          />
+                          <figcaption className="absolute bottom-1 left-4 text-white">
+                            Eneagrama
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div className="flex items-start justify-center lg:justify-start space-x-4 ml-12">
+                        <figure className="relative">
+                          <img
+                            className="rounded-lg shadow-lg w-24 md:w-40"
+                            width="170"
+                            src="/magia.jpg"
+                            alt="3"
+                          />
+                          <figcaption className=" absolute bottom-1 left-4 text-white">
+                            Magicamente
+                          </figcaption>
+                        </figure>
+                        <figure className="relative">
+                          <img
+                            className="rounded-lg shadow-lg w-32 md:w-56"
+                            width="200"
+                            src="/growing-coins-portrait.jpg"
+                            alt="4"
+                          />
+                          <figcaption className=" absolute bottom-1 left-4 text-sintopurple-800">
+                            Finanzas saludables
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
