@@ -8,9 +8,8 @@ export default function Hero() {
             <br className="hidden lg:inline-block" />
             bienestar y felicidad
           </h1>
-          <p className="mb-8 leading-relaxed max-w-char">
-            Cursos, talleres y experiencas únicas ONLINE Y EN VIVO enfocadas en
-            proporcionar herramientas para que trabajes en tu persona.
+          <p className="mb-8 leading-relaxed max-w-char italic text-sintogreen-500">
+            Impulsa tu organización con bienestar estratégico
           </p>
           <div className="flex justify-center">
             <button className="inline-flex text-sintopurple-600 bg-white border-0 py-2 px-12 transition focus:outline-none hover:bg-sintopurple-300 hover:text-white rounded text-lg">

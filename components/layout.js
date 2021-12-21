@@ -9,10 +9,8 @@ function Layout({ children }) {
       <Nav></Nav>
       <main
         className={
-          "h-40 mt-16 min-h-screen" +
-          (router.pathname == "/organizacional"
-            ? " bg-green-700"
-            : " bg-blue-400")
+          "mt-16 min-h-screen relative z-10" +
+          (router.pathname == "/organizacional" ? " bg-white" : " bg-white")
         }
       >
         {children}

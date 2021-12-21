@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-sintopurple-700 text-white w-full">
+    <footer className="bg-sintopurple-700 text-white w-full sticky bottom-0 left-0 z-0">
       <div className="container mx-auto md:px-4 border-box flex flex-col">
         <div className="md:flex md:mt-16 flex-wrap justify-around mb-4 py-12 text-center md:text-left">
           <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
@@ -192,11 +192,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="container mx-auto flex flex-wrap justify-center text-center text-sm pb-4">
-        <Link href="/aviso-privacidad">
+        <Link href="/privacidad">
           <a>Aviso de Privacidad </a>
         </Link>
         <span className="mx-4"> | </span>
-        <Link href="/terminos-y-condiciones">
+        <Link href="/terminos">
           <a> Terminos y Condiciones</a>
         </Link>
         <span className="mx-4"> | </span>© 2020 SintoniaSoy, Todos los Derechos

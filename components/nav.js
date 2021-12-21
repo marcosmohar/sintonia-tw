@@ -6,7 +6,7 @@ export default function Nav() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const router = useRouter();
   return (
-    <nav className="bg-white w-full py-2 mx-auto px-8 shadow fixed z-50 top-0 ">
+    <nav className="bg-white w-screen py-2 mx-auto px-2 sm:px-8 shadow fixed z-50 top-0 ">
       <div className="flex items-center justify-between flex-wrap max-w-screen-xl mx-auto">
         <div className="flex items-center flex-shrink-0 text-white mr-6 ">
           <Link href="/">
@@ -41,7 +41,7 @@ export default function Nav() {
 
         <div
           className={
-            "w-full flex-grow lg:items-end lg:w-auto lg:block pt-6 lg:pt-0" +
+            "w-full flex-grow lg:items-center lg:w-auto lg:block pt-6 lg:pt-0 " +
             (navbarOpen ? "block" : " hidden")
           }
           id="nav-content"
@@ -49,7 +49,7 @@ export default function Nav() {
           <ul className="list-reset lg:flex justify-end flex-1 items-center">
             <li
               className={
-                "px-2 rounded hover:bg-purple-100" +
+                "px-2 rounded-full hover:bg-purple-100" +
                 (router.pathname == "/"
                   ? " text-sintopurple-400"
                   : " text-gray-600")
@@ -63,7 +63,7 @@ export default function Nav() {
             </li>
             <li
               className={
-                "px-3 rounded hover:bg-purple-100" +
+                "px-3 rounded-full hover:bg-purple-100" +
                 (router.pathname == "/clases"
                   ? " text-sintopurple-400"
                   : " text-gray-600")
@@ -79,7 +79,7 @@ export default function Nav() {
             </li>
             <li
               className={
-                "px-3 rounded hover:bg-purple-100" +
+                "px-3 rounded-full hover:bg-purple-100" +
                 (router.pathname == "/especialistas"
                   ? " text-sintopurple-400"
                   : " text-gray-600")
@@ -95,7 +95,7 @@ export default function Nav() {
             </li>
             <li
               className={
-                "px-3 rounded hover:bg-purple-100" +
+                "px-3 rounded-full hover:bg-purple-100" +
                 (router.pathname == "/nosotros"
                   ? " text-sintopurple-400"
                   : " text-gray-600")
@@ -111,10 +111,10 @@ export default function Nav() {
             </li>
             <li
               className={
-                "px-3 rounded-3xl  text-white hover:bg-green-700 " +
+                "px-3 rounded-full text-white hover:bg-green-700 " +
                 (router.pathname == "/organizacional"
-                  ? "bg-green-800"
-                  : "bg-green-600")
+                  ? "bg-green-600"
+                  : "bg-green-800")
               }
             >
               <Link href="/organizacional">

@@ -2,16 +2,17 @@ import Head from "next/head";
 import Nav from "../components/nav";
 import Hero from "../components/hero";
 import Footer from "../components/footer";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 font-poppin">
+    <div className="flex flex-col items-center justify-center min-h-screen">
       <Head>
         <title>Sintonia.Soy | Lo que buscas cuando te buscas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <div className="bg-sintopurple-500 w-full text-white">
+      <div className="bg-sintopurple-500 w-full text-white z-10">
         <Hero />
         <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center lg:my-40 ">
           <section className="min-h-screen flex content-center ">
@@ -35,7 +36,7 @@ export default function Home() {
                       <img className="w-full px-8" src="/ejes.svg" alt="" />
                     </p>
                   </div>
-                  <div className="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
+                  <div className="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 ">
                     <div className="relative space-y-4">
                       <div className="flex items-end justify-center lg:justify-start space-x-4">
                         <figure className="relative">

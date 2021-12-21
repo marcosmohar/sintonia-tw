@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.half {
+  flex-basis: calc(50% - 20px);
+}
