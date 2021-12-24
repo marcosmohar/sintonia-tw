@@ -11,7 +11,7 @@ export default function Nav() {
         <div className="flex items-center flex-shrink-0 text-white mr-6 ">
           <Link href="/">
             <a className="flex no-underline hover:no-underline pl-2">
-              <img src="/nav-logo.svg" className="h-12" alt="" />
+              <img src="/nav-logo.svg" className="h-8 sm:h-10" alt="" />
             </a>
           </Link>
         </div>

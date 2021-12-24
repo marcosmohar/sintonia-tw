@@ -14,7 +14,7 @@ export default function Home() {
       <Nav />
       <div className="bg-sintopurple-500 w-full text-white z-10">
         <Hero />
-        <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center lg:my-40 ">
+        <main className="flex flex-col items-center justify-center w-full flex-1 px-4 sm:px-20 text-center lg:my-40 ">
           <section className="min-h-screen flex content-center ">
             <div className="max-w-screen-xl p-4 bg-transparent dark:bg-gray-800 mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
               <div className="relative">

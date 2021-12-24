@@ -198,8 +198,8 @@ export default function Organizacional() {
                 Bienestar Integral
               </h3>
               <div className="max-w-sm max-h-full mt-6 grid grid-cols-6 grid-rows-4 place-items-center gap-4 md:gap-y-8 mx-auto ">
-                <div className="rounded-lg overflow-hidden col-start-1 col-span-3 row-span-2 shadow-lg">
-                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white shadow-lg mx-auto">
+                <div className="rounded-lg overflow-hidden col-start-1 col-span-3 row-span-2 shadow hover:shadow-xl transition ease-in-out duration-300">
+                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white mx-auto">
                     <svg fill="none" viewBox="0 0 32 42">
                       <path
                         fill="#266A48"
@@ -212,8 +212,8 @@ export default function Organizacional() {
                     </svg>
                   </div>
                 </div>
-                <div className="rounded-lg overflow-hidden col-start-4 col-span-3 row-span-2 shadow-lg">
-                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white shadow-lg mx-auto">
+                <div className="rounded-lg overflow-hidden col-start-4 col-span-3 row-span-2 shadow hover:shadow-xl transition ease-in-out duration-300">
+                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white mx-auto">
                     <svg fill="none" viewBox="0 0 32 44">
                       <path
                         fill="#266A48"
@@ -239,8 +239,8 @@ export default function Organizacional() {
                     </svg>
                   </div>
                 </div>
-                <div className="rounded-lg overflow-hidden col-start-1 col-span-3 row-start-3 row-span-2 shadow-lg">
-                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white shadow-lg mx-auto">
+                <div className="rounded-lg overflow-hidden col-start-1 col-span-3 row-start-3 row-span-2 shadow hover:shadow-xl transition ease-in-out duration-300">
+                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white mx-auto">
                     <svg fill="none" viewBox="0 0 42 48">
                       <path
                         fill="#266A48"
@@ -257,8 +257,8 @@ export default function Organizacional() {
                     </svg>
                   </div>
                 </div>
-                <div className="rounded-lg overflow-hid den col-start-4 col-span-3 row-start-3 row-span-2 shadow-lg">
-                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white shadow-lg mx-auto">
+                <div className="rounded-lg overflow-hid den col-start-4 col-span-3 row-start-3 row-span-2 shadow hover:shadow-xl transition ease-in-out duration-300">
+                  <div className="h-40 w-40 p-8 grid items-center rounded-lg bg-white mx-auto">
                     <svg
                       viewBox="0 0 37 44"
                       fill="none"
@@ -323,7 +323,7 @@ export default function Organizacional() {
             </div>
             <div className="w-full md:w-6/12 ml-auto mr-auto px-4">
               <h3 className="text-3xl font-semibold max-w-md">
-                <span className="inline-block transform py-1 px-2 hover:-rotate-12 hover:-translate-y-6 origin-center text-sintopurple-100 bg-sintopurple-700">
+                <span className="inline-block transform py-1 px-2 hover:-translate-y-8 origin-top text-sintopurple-50 bg-sintopurple-700 transition ease-in-out duration-300">
                   Human
                 </span>
                 <span className="-ml-16 line-through text-gray-300">Soft</span>{" "}

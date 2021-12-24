@@ -191,7 +191,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto flex flex-wrap justify-center text-center text-sm pb-4">
+      <div className="container mx-auto flex flex-wrap justify-center text-center text-xs md:text-sm pb-4">
         <Link href="/privacidad">
           <a>Aviso de Privacidad </a>
         </Link>

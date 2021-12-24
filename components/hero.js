@@ -3,20 +3,20 @@ export default function Hero() {
     <section className="body-font min-h-screen flex content-center">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font text-4xl lg:text-7xl  mb-4 text-white font-bold">
+          <h1 className="title-font text-4xl lg:text-5xl  mb-4 text-white font-bold">
             Experiencias de
             <br className="hidden lg:inline-block" />
-            bienestar y felicidad
+            <span> bienestar y felicidad</span>
           </h1>
-          <p className="mb-8 leading-relaxed max-w-char">
+          <p className="max-w-2xl mb-8 ">
             Cursos, talleres y experiencas únicas ONLINE Y EN VIVO enfocadas en
             proporcionar herramientas para que trabajes en tu persona.
           </p>
-          <div className="flex justify-center">
-            <button className="inline-flex text-sintopurple-600 bg-white border-0 py-2 px-12 transition focus:outline-none hover:bg-sintopurple-300 hover:text-white rounded text-lg">
+          <div className="flex justify-center ">
+            <button className="inline-flex mx-auto py-1 px-6 sm:py-2 sm:px-12 rounded text-lg text-sintopurple-600 bg-white border-0 hover:bg-sintopurple-300 hover:text-white transition duration-150 focus:outline-none  ">
               Personas
             </button>
-            <button className="ml-8 inline-flex text-white bg-green-700 border-0 py-2 px-12 focus:outline-none hover:bg-green-800 rounded text-lg">
+            <button className="inline-flex ml-6 py-1 px-6 sm:py-2 sm:px-12 rounded text-lg sm:ml-8 text-white bg-green-700  hover:bg-green-800 transition duration-150 focus:outline-none">
               Empresas
             </button>
           </div>
