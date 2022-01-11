@@ -52,9 +52,9 @@ export default function Organizacional() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-10 h-10"
                   viewBox="0 0 24 24"
                 >
@@ -86,9 +86,9 @@ export default function Organizacional() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-10 h-10"
                   viewBox="0 0 24 24"
                 >
@@ -103,9 +103,9 @@ export default function Organizacional() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-10 h-10"
                   viewBox="0 0 24 24"
                 >
@@ -138,9 +138,9 @@ export default function Organizacional() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-10 h-10"
                   viewBox="0 0 24 24"
                 >
@@ -155,9 +155,9 @@ export default function Organizacional() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-10 h-10"
                   viewBox="0 0 24 24"
                 >
@@ -232,7 +232,7 @@ export default function Organizacional() {
                       </mask>
                       <path
                         stroke="#266A48"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="M24.0087 10.6576H21.695l1.9941-.93701c.138-.06457.2611-.15396.3621-.26306.101-.10909.1779-.23574.2264-.37269.0485-.13694.0676-.28148.0562-.42532-.0114-.14385-.0531-.28418-.1227-.41293-.1401-.25931-.3847-.45605-.68-.54698-.2953-.09093-.6171-.06861-.8948.06204L16.475 10.6576h-.7331L9.58063 7.76165c-.27768-.13065-.59953-.15297-.89481-.06204-.29529.09093-.53985.28767-.67996.54698-.13984.25943-.16373.56012-.0664.836.09733.27587.30791.50436.58546.63526l1.99408.93975H8.17302c-.31111 0-.60947.1155-.82945.321-.21998.2055-.34357.4843-.34357.7749 0 .2907.12359.5694.34357.7749.21998.2056.51834.321.82945.321h5.27858v3.2083l-4.51319 6.5399c-.08217.1219-.13779.2578-.16369.3998-.0259.142-.02157.2875.01275.4279.03432.1405.09795.2733.18726.3907.0893.1175.20252.2174.33318.2939l.24633.1452c.18691.1105.40344.1694.62466.1699.0868-.0002.1734-.0094.258-.0274.1503-.0319.2925-.0911.4183-.1743.1258-.0832.2328-.1888.3149-.3107l2.2815-3.3918v4.3837c0 .2906.1236.5694.3436.7749.2199.2055.5183.321.8294.321h.5865c.1666-.0002.3312-.0336.4828-.0978.1517-.0643.287-.1579.397-.2748.1099.1169.2452.2105.3969.2748.1517.0642.3163.0976.4828.0978h.5865c.3111 0 .6095-.1155.8295-.321.22-.2055.3436-.4843.3436-.7749v-4.3837l2.2785 3.3809c.0821.1219.1892.2274.315.3106.1257.0832.2679.1425.4182.1743.0856.0183.1731.0275.261.0274.2202-.001.4356-.0598.6217-.1698l.2492-.1452c.1309-.0768.2441-.177.3334-.2948.0893-.1178.1528-.2509.1868-.3916.0341-.1408.0381-.2865.0117-.4287-.0264-.1422-.0825-.2782-.1653-.4l-4.5102-6.5262v-3.2083h5.2785c.3111 0 .6095-.1154.8295-.321.22-.2055.3435-.4842.3435-.7749 0-.2906-.1235-.5694-.3435-.7749-.22-.2055-.5184-.321-.8295-.321Zm-1.1085-2.40827c.0689-.03251.144-.05199.221-.05733.077-.00534.1544.00358.2276.02623.0733.02265.1411.0586.1995.10578.0584.04718.1062.10467.1408.16916.041.07553.0621.15914.0616.24384.0002.1027-.0305.20339-.0886.29058-.058.0872-.1412.15739-.2399.20258L20.39 10.6576h-2.61l5.1202-2.40827Zm-14.11428.9781c-.09618-.04591-.17692-.11574-.23332-.20179-.0564-.08606-.08628-.18499-.08633-.28589-.00036-.08556.02073-.17001.06158-.24658.03456-.06449.0824-.12198.14079-.16916.05838-.04718.12616-.08313.19945-.10578.07329-.02265.15064-.03157.22763-.02623.07698.00534.15208.02482.22099.05733l5.12019 2.40827H11.827L8.78592 9.22743ZM10.6745 23.6195c-.0837.1216-.2154.2074-.3664.2387-.1511.0313-.30924.0056-.44008-.0716l-.24926-.1452c-.13113-.0773-.22418-.1999-.2588-.3411-.03462-.1412-.008-.2894.07405-.4123l4.01759-5.8193v2.4356l-2.7771 4.1152Zm12.0703-.7343c.0412.0608.0692.1286.0824.1995.0131.0709.0112.1436-.0056.2138-.0169.0702-.0485.1367-.0928.1955-.0444.0588-.1007.1089-.1658.1474l-.2522.148c-.1312.0769-.2896.1022-.4407.0703-.1511-.0318-.2826-.1182-.3658-.2402l-2.7741-4.1152v-2.4356l4.0146 5.8165Zm1.2639-10.5837h-5.8651v12.603c0 .1453-.0617.2847-.1717.3874-.11.1028-.2592.1605-.4148.1605h-.5865c-.1555 0-.3047-.0577-.4147-.1605-.11-.1027-.1718-.2421-.1718-.3874V17.507h-.5865v7.3975c0 .1453-.0618.2847-.1718.3874-.11.1028-.2591.1605-.4147.1605h-.5865c-.1556 0-.3047-.0577-.4147-.1605-.11-.1027-.1718-.2421-.1718-.3874v-12.603H8.17302c-.15556 0-.30474-.0578-.41473-.1605-.10999-.1028-.17178-.2422-.17178-.3875s.06179-.2847.17178-.3875c.10999-.1027.25917-.1604.41473-.1604H24.0087c.1556 0 .3048.0577.4148.1604.1099.1028.1717.2422.1717.3875s-.0618.2847-.1717.3875c-.11.1027-.2592.1605-.4148.1605Z"
                         mask="url(#b)"
                       />
@@ -336,9 +336,9 @@ export default function Organizacional() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="text-sintopurple-500 w-8 h-8 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
@@ -355,9 +355,9 @@ export default function Organizacional() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="text-sintopurple-500 w-8 h-8 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
@@ -374,9 +374,9 @@ export default function Organizacional() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="text-sintopurple-500 w-8 h-8 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
@@ -393,9 +393,9 @@ export default function Organizacional() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="text-sintopurple-500 w-8 h-8 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
@@ -412,9 +412,9 @@ export default function Organizacional() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="text-sintopurple-500 w-8 h-8 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
@@ -431,9 +431,9 @@ export default function Organizacional() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="text-sintopurple-500 w-8 h-8 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
@@ -450,9 +450,9 @@ export default function Organizacional() {
                       <svg
                         fill="none"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         className="text-sintopurple-500 w-8 h-8 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >

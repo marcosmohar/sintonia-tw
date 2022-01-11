@@ -23,7 +23,7 @@ export default function Home() {
                     <p className="text-base leading-6 text-sintopurple-100 font-semibold uppercase">
                       Interactive
                     </p>
-                    <h4 className="mt-2 text-2xl leading-8 font-extrabold text-green-300 dark:text-white sm:text-3xl sm:leading-9">
+                    <h4 className="mt-2 text-2xl leading-8 font-extrabold text-sintogreen-200 dark:text-white sm:text-3xl sm:leading-9">
                       Interactivity between team members is the key of the
                       success.
                     </h4>
