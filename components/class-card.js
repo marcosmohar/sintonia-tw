@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function ClassCard(props) {
   return (
     <>
@@ -7,12 +5,17 @@ export default function ClassCard(props) {
         <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
           <div className="flex flex-col sm:flex-row bg-gray-100 rounded-lg overflow-hidden">
             <div className="w-full h-60 sm:h-96 sm:w-1/2 bg-gray-200 relative">
-              <Image
+              <img
+                src={props.img.url}
+                alt={props.img.alt}
+                className="w-full h-auto object-cover"
+              />
+              {/*<Image
                 alt={props.img.alt}
                 src={props.img.url}
                 layout="fill"
                 objectFit="cover"
-              />
+              />*/}
             </div>
 
             <div className="w-full sm:w-2/3 lg:w-1/2 flex items-center p-4 sm:p-8 lg:pl-10">
