@@ -7,7 +7,7 @@ export default function Terminos() {
       <Head>Términos y Condiciones - Sintonia.Soy</Head>
       <Layout>
         <article className="max-w-5xl mx-auto  mt-16 py-20">
-          <div>
+          <div className="space-y-6">
             <h1 className="text-3xl font-semibold mt-6 mb-4">
               Términos y Condiciones
             </h1>
@@ -55,12 +55,13 @@ export default function Terminos() {
 
             <p className="mb-4">Nuestros medios de contacto son:</p>
 
-            <ul>
-              <li>Teléfonos:</li>
-              <li>Correo electrónico: contacto@sintonia.soy</li>
+            <ul className="space-y-2">
               <li>
-                Redes sociales
-                <ul>
+                <b>Correo electrónico:</b> contacto@sintonia.soy
+              </li>
+              <li>
+                <b>Redes sociales:</b>
+                <ul className="ml-4 space-y-1 mt-1">
                   <li>Facebook: @sintoniasoy</li>
                   <li>Instagram: @sintoniasoy</li>
                   <li>LinkedIn: SINTONÍA</li>
@@ -129,12 +130,11 @@ export default function Terminos() {
               el curso contratado.
             </p>
 
-            <p className="mb-4">
-              Existen dos formas para realizar el pago de todas las Master Class
-              y los Talleres y Cursos:
-            </p>
-
-            <ul>
+            <ul className="mb-4 space-y-2 list-disc ml-5">
+              <p className="-ml-5">
+                Existen tres formas para realizar el pago de todas las Master
+                Class y los Talleres y Cursos:
+              </p>
               <li>Transferencia electrónica a la cuenta bancaria indicada</li>
               <li>Stripe</li>
               <li>PayPal</li>
@@ -251,17 +251,17 @@ export default function Terminos() {
               imparta el Master Class, Taller o Curso.
             </p>
 
-            <p className="mb-4">
+            <p className="">
               SintoníaSOY reembolsará el dinero a los clientes y usuarios
               únicamente en los casos siguientes:
             </p>
 
-            <ul>
-              <li>
+            <ul className="list-disc space-y-2">
+              <li className="ml-5">
                 Si SintoníaSOY, el maestro o especialista cancela el Master
                 Class, Taller o Curso.
               </li>
-              <li>
+              <li className="ml-5">
                 Si por fallas atribuibles a SintoníaSOY, el usuario o cliente no
                 quedó debidamente registrado en el Master Class, Taller o Curso,
                 impidiéndole el acceso al mismo.

@@ -12,7 +12,8 @@ const personas = [
   {
     nombre: "Lorenza Remus",
     titulo: "Consultora académica y Coach",
-    especialidad: "Maestra de Yoga, meditación, baile y ballet clasico",
+    especialidad:
+      "Maestra de Yoga, meditación, baile y ballet clasico. Constructora de ambientes de aprendizaje",
     url: "/especialistas/LorenzaRemus.jpg",
   },
   {

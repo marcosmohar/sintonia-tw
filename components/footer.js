@@ -93,7 +93,7 @@ export default function Footer() {
               </li>
               <li className="hover:text-purple-200 text-sm text-purple-100 ">
                 <a
-                  href="https://www.instagram.com/sintoniaplataforma/"
+                  href="https://www.instagram.com/sintoniasoy/"
                   className="flex items-center"
                 >
                   <svg

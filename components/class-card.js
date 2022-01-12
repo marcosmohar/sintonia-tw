@@ -13,13 +13,6 @@ export default function ClassCard(props) {
                 layout="fill"
                 objectFit="cover"
               />
-              {/*
-              <img
-                src={props.image.url}
-                loading="lazy"
-                alt="Photo by mymind"
-                className="w-full h-full object-cover object-center absolute inset-0"
-              /> */}
             </div>
 
             <div className="w-full sm:w-2/3 lg:w-1/2 flex items-center p-4 sm:p-8 lg:pl-10">

@@ -5,7 +5,6 @@ export default function ClassList({ experiencias }) {
     <ul>
       {experiencias.map((experiencia, idx) => (
         <li key={idx}>
-          {console.log(experiencia)}
           <ClassCard {...experiencia} />
         </li>
       ))}

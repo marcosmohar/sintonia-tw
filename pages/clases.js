@@ -67,9 +67,10 @@ export default function Clases() {
       <section className="flex flex-col items-center px-4 py-10 my-36">
         <h1 className="font-bold text-2xl uppercase">Conoce nuestras Clases</h1>
         <hr className="h-2 w-40 my-4 bg-sintogreen-500" />
-        <p className="text-center md:text-left text-lg">
-          Orientadas a la búsqueda del <span>bienestar personal</span>, y el
-          equilibrio con el resto del mundo.{" "}
+        <p className=" max-w-2xl text-center text-lg">
+          Todas nuestras experiencias están dirigidas a la búsqueda del{" "}
+          <span>bienestar personal</span>, y el equilibrio con el resto del
+          mundo.{" "}
         </p>
       </section>
       <div className="text-2xl font-semibold text-center py-12 text-white bg-sintopurple-700">

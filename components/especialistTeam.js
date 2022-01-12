@@ -5,7 +5,6 @@ export default function EspecialistTeam({ especialistas }) {
     <>
       {especialistas.map((especialista, idx) => (
         <div key={idx}>
-          {console.log(especialista)}
           <Especialista {...especialista} />
         </div>
       ))}

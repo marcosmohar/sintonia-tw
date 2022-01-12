@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
         <div className=" w-5/6 lg:max-w-lg">
           <img
-            className="object-cover object-center rounded drop-shadow-xl"
+            className="object-cover object-center rounded drop-shadow-sm hover:drop-shadow-lg hover:-mt-2"
             alt="hero"
             src="/hero-image.webp"
           />

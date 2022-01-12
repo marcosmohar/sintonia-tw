@@ -29,7 +29,7 @@ export default function Privacidad() {
             <h2 className="text-xl font-semibold mt-6 mb-4">
               ¿Cuáles son los datos personales que recabamos?
             </h2>
-            <ul>
+            <ul className="mb-4">
               <li>Nombre.</li>
               <li>Teléfono de contacto.</li>
               <li>Correo electrónico.</li>
@@ -59,7 +59,7 @@ export default function Privacidad() {
               “Tratamientos Adicionales”):
             </p>
 
-            <ul>
+            <ul className="list-disc ml-5 mb-4">
               <li>Sugerencias de clases y talleres de su interés.</li>
               <li>
                 Notificación de promociones y de la existencia de nuevos
