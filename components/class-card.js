@@ -1,14 +1,14 @@
 export default function ClassCard(props) {
   return (
     <>
-      <div className="bg-sintopurple-500 py-6 sm:py-8 lg:py-12">
-        <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
+      <div className="py-6 sm:py-8 lg:py-12">
+        <div className="max-w-screen-lg px-4 md:px-8 mx-auto">
           <div className="flex flex-col sm:flex-row bg-gray-100 rounded-lg overflow-hidden">
             <div className="w-full h-60 sm:h-96 sm:w-1/2 bg-gray-200 relative">
               <img
                 src={props.img.url}
                 alt={props.img.alt}
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover"
               />
               {/*<Image
                 alt={props.img.alt}

@@ -16,7 +16,7 @@ export default function Organizacional() {
                 <div className="w-full pb-6 space-y-6 md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0 flex flex-col">
                   <h1 className="text-4xl font-extrabold tracking-tight text-gray-00 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                     <span className="font-extrabold block xl:inline">
-                      Experiencias de <br />
+                      Agencia estratégica de <br />
                     </span>
 
                     <span className="block text-sintopurple-500 xl:inline ">
@@ -63,16 +63,16 @@ export default function Organizacional() {
         <Cliente></Cliente>
         <section className="flex items-center justify-center py-10 text-white bg-white sm:py-16 md:py-24 lg:py-32 px-2">
           <div className="relative md:max-w-3xl px-10 text-center text-white auto lg:px-0">
-            <div className="flex flex-col items-center md:items-between w-full md:flex-row">
+            <div className="flex flex-col items-center md:items-start w-full md:flex-row">
               <div className="flex justify-between z-10">
-                <h2 className="relative flex flex-col text-4xl text-center md:text-left md:text-5xl font-extrabold text-black">
+                <h2 className="relative flex flex-col text-4xl text-center md:text-left lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-sintopurple-600 via-sintopurple-500 to-green-600 drop-shadow-sm">
                   Diseñamos
-                  <span className="">experiencias de</span>
-                  <span className="">bienestar online</span>
+                  <span className="">experiencias y estrategias de</span>
+                  <span className="">bienestar y felicidad online</span>
                 </h2>
               </div>
 
-              <div className="relative top-0 right-0 h-64 mt-12 md:-mt-16 md:absolute md:h-96">
+              <div className="relative top-0 right-0 h-64 mt-12 md:-mt-16  md:h-96">
                 <svg
                   viewBox="0 0 500 500"
                   className="object-cover mt-3 mr-5 h-80"
@@ -489,16 +489,19 @@ export default function Organizacional() {
               </div>
             </div>
             <div className="my-16 border-b border-gray-300 lg:my-24"></div>
-            <h2 className=" text-gray-500 text-center lg:text-xl">
+            <p className=" text-gray-500 text-center lg:text-xl mb-4">
               Somos una agencia de bienestar y felicidad organizacional. En
               Sintonía creemos que las personas sanas pueden sanar al mundo; y
               que cada empresa, pequeña o grande, merece colaboradores felices,
               saludables y comprometidos.{" "}
+            </p>
+            <p className="text-gray-500 lg:text-xl">
               <em className="font-semibold text-green-700">
                 Nuestro compromiso:
               </em>{" "}
-              mejorar la calidad de vida de los colaboradores
-            </h2>
+              mejorar la calidad de vida de los colaboradores. Dentro y fuera
+              del trabajo
+            </p>
           </div>
         </section>
 
@@ -1027,9 +1030,9 @@ export default function Organizacional() {
               <div className="flex flex-col lg:flex-row gap-8">
                 <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
                   <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                    Acciones para cumplir con la NOM-035, factores de{" "}
+                    Acciones para cumplir con la NOM-035,{" "}
                     <span className=" text-sintogreen-400">
-                      riesgo psicosocial{" "}
+                      factores de riesgo psicosocial{" "}
                     </span>
                     <span> en el trabajo</span>
                   </h2>
@@ -1048,7 +1051,7 @@ export default function Organizacional() {
                 <h3 className="text-lg font-semibold text-center text-sintopurple-500">
                   TE AYUDAMOS A LOGRAR TUS OBJETIVOS
                 </h3>
-                <ul className="list-disc">
+                <ul>
                   <li>Entorno organizacional saludable</li>
                   <li>Manejo de factores de riesgo psicosocial</li>
                   <li>
@@ -1367,75 +1370,75 @@ export default function Organizacional() {
           </div>
         </section>
         <section className="py-20">
-          <div class="bg-white py-6 sm:py-8 lg:py-12">
-            <div class="max-w-screen-lg px-4 md:px-8 mx-auto">
-              <div class="mb-10 md:mb-16">
-                <h2 class="text-gray-800 text-3xl lg:text-3xl font-bold text-center mb-4 md:mb-6">
+          <div className="bg-white py-6 sm:py-8 lg:py-12">
+            <div className="max-w-screen-lg px-4 md:px-8 mx-auto">
+              <div className="mb-10 md:mb-16">
+                <h2 className="text-gray-800 text-3xl lg:text-3xl font-bold text-center mb-4 md:mb-6">
                   Catálogo{" "}
                 </h2>
 
-                <p class="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
+                <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
                   A continuación se presenta el listado de temas sobre los que
                   orientamos nuestras experiencias de bienestar
                 </p>
               </div>
 
-              <div class="flex flex-wrap justify-center items-center gap-4 sm:gap-0">
-                <div class="w-full sm:w-1/2 bg-gradient-to-bl lg:w-1/3 from-green-800 to-green-600 rounded-lg sm:rounded-r-none p-6 sm:p-8">
-                  <div class="mb-4">
-                    <h3 class="text-gray-100 text-2xl sm:text-3xl font-semibold">
+              <div className="flex flex-wrap flex-row-reverse justify-center items-center gap-4 sm:gap-0">
+                <div className="w-full sm:w-1/2 bg-gradient-to-bl lg:w-1/3 from-green-800 to-green-600 rounded-lg sm:rounded-l-none p-6 sm:p-8">
+                  <div className="mb-4">
+                    <h3 className="text-gray-100 text-2xl sm:text-3xl font-semibold">
                       Cápsulas
                     </h3>
                   </div>
                   <p className="text-lg font-medium mb-2 text-white">
                     Pausa Activa
                   </p>
-                  <ul class="text-gray-50 space-y-2 mb-6">
-                    <li class="flex items-center gap-1.5">
+                  <ul className="text-gray-50 space-y-2 mb-6">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Ejercicios de relajación y respiracón</span>
                     </li>
 
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Estiramientos</span>
                     </li>
 
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
@@ -1445,52 +1448,52 @@ export default function Organizacional() {
                   <p className="text-lg font-medium mb-2 text-white">
                     Pausa Creativa
                   </p>
-                  <ul class="text-gray-50 space-y-2 mb-6">
-                    <li class="flex items-center gap-1.5">
+                  <ul className="text-gray-50 space-y-2 mb-6">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Relajación con sonido</span>
                     </li>
 
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Meditación breve</span>
                     </li>
 
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
@@ -1499,171 +1502,171 @@ export default function Organizacional() {
                   </ul>
                 </div>
 
-                <div class="w-full sm:w-1/2 bg-gradient-to-tr from-sintopurple-500 to-sintopurple-300 rounded-lg shadow-xl p-6 sm:p-8">
-                  <div class="flex flex-col lg:flex-row justify-between items-start gap-4 mb-4">
+                <div className="w-full sm:w-1/2 bg-gradient-to-tr from-sintopurple-500 to-sintopurple-300 rounded-lg shadow-xl p-6 sm:p-8">
+                  <div className="flex flex-col lg:flex-row justify-between items-start gap-4 mb-4">
                     <div>
-                      <h3 class="text-white text-2xl sm:text-3xl font-semibold">
+                      <h3 className="text-white text-2xl sm:text-3xl font-semibold">
                         Temas Principales
                       </h3>
                     </div>
                   </div>
 
-                  <ul class="text-indigo-100 space-y-2 mb-6">
-                    <li class="flex items-center gap-1.5">
+                  <ul className="text-indigo-100 space-y-2 mb-6">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Liderazgo</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Nutrición</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Autoconocimiento</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Inteligencia emocional</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Manejo de estrés y ansiedad</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Próposito / misión en la vida</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Aceptación de la nueva normalidad</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Estiramientos para Home office</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
                       <span>Meditaciones guiadas</span>
                     </li>
-                    <li class="flex items-center gap-1.5">
+                    <li className="flex items-center gap-1.5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5 flex-shrink-0"
+                        className="w-5 h-5 flex-shrink-0"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         />
                       </svg>
 
@@ -1691,24 +1694,24 @@ export default function Organizacional() {
               medida
             </p>
           </div>
-          <div class="w-full md:w-96 md:max-w-full mx-auto ">
-            <div class=" border-sintopurple-500 border-4 sm:rounded-md p-10">
+          <div className="w-full md:w-96 md:max-w-full mx-auto ">
+            <div className=" border-sintopurple-500 border-4 sm:rounded-md p-10">
               <form method="POST" action="https://herotofu.com/start">
-                <label class="block mb-6">
-                  <span class="text-gray-700">Nombre:</span>
+                <label className="block mb-6">
+                  <span className="text-gray-700">Nombre:</span>
                   <input
                     type="text"
                     name="name"
-                    class="block w-full mt-1 border-gray-700  rounded-md shadow-smfocus:border-indigo-300focus:ringfocus:ring-indigo-200focus:ring-opacity-50"
+                    className="block w-full mt-1 border-gray-700  rounded-md shadow-smfocus:border-indigo-300focus:ringfocus:ring-indigo-200focus:ring-opacity-50"
                     placeholder="Pedro Páramo"
                   />
                 </label>
-                <label class="block mb-6">
-                  <span class="text-gray-700">Correo electrónico</span>
+                <label className="block mb-6">
+                  <span className="text-gray-700">Correo electrónico</span>
                   <input
                     name="email"
                     type="email"
-                    class="
+                    className="
             block
             w-full
             mt-1
@@ -1724,12 +1727,12 @@ export default function Organizacional() {
                     required
                   />
                 </label>
-                <label class="block mb-6">
-                  <span class="text-gray-700">Empresa</span>
+                <label className="block mb-6">
+                  <span className="text-gray-700">Empresa</span>
                   <input
                     name="empresa"
                     type="text"
-                    class="
+                    className="
             block
             w-full
             mt-1
@@ -1745,11 +1748,11 @@ export default function Organizacional() {
                     required
                   />
                 </label>
-                <label class="block mb-6">
-                  <span class="text-gray-700">Mensaje</span>
+                <label className="block mb-6">
+                  <span className="text-gray-700">Mensaje</span>
                   <textarea
                     name="message"
-                    class="
+                    className="
                           block
                           w-full
                           mt-1
@@ -1768,7 +1771,7 @@ export default function Organizacional() {
                 <div>
                   <button
                     type="submit"
-                    class="
+                    className="
             h-10
             px-5
             text-indigo-100

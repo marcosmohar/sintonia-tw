@@ -69,7 +69,7 @@ export default function Especialistas() {
                 especialistas
               </p>
             </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+            <h2 className="max-w-lg mb-20 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
               <span className="relative inline-block">
                 <svg
                   viewBox="0 0 52 24"
@@ -94,13 +94,8 @@ export default function Especialistas() {
                   ></rect>
                 </svg>
               </span>
-              Conoce a nuestro equipo de talentosos especialistas
+              Conoce a nuestro equipo de especialistas
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              Todos nuestros especialistas trabajan con al menos uno de los ejes
-              que consideramos escenciales. Y son quien te acompañará en el
-              camino.
-            </p>
           </div>
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
             <EspecialistTeam especialistas={personas} />

@@ -79,7 +79,6 @@ export default function Clases() {
         </p>
       </div>
       <ClassList experiencias={experiencias} />
-      {console.log(experiencias)}
     </Layout>
   );
 }

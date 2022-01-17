@@ -8,7 +8,11 @@ export default function Cliente() {
             alt="Kraft logo"
             className="h-10 py-2"
           />
-          <img src="/clients/sony.png" alt="Sony logo" className="h-10 py-2" />
+          <img
+            src="/clients/reforma.png"
+            alt="Reforma logo"
+            className="h-10 py-1"
+          />
           <img
             src="/clients/grupo-sm.png"
             alt="Grupo-SM logo"
