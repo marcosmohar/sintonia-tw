@@ -50,10 +50,37 @@ const personas = [
     url: "/especialistas/AllanVazquez.jpg",
   },
   {
-    nombre: "Patricia Beatriz Rodriguez Guerra",
+    nombre: "Patricia Rodriguez",
     titulo: "Programación Neurolingüística y desarrollo personal",
     especialidad: "Consultora en temas de desarrollo humano en empresas",
     url: "/especialistas/PatyRG.jpg",
+  },
+  {
+    nombre: "Indra Aguilar",
+    titulo: "Maestra y Formadora de Maestros de Yoga",
+    especialidad:
+      "Especialidad en Hatha-Vinyasa, Pranayama y refinamiento de posturas.",
+    url: "/especialistas/IndraA.jpg",
+  },
+  {
+    nombre: "Marimar Berj[on",
+    titulo: "Lic. en Nutrición y ciencia de los Alimentos",
+    especialidad:
+      "Conferencista en el area de nutrición laboral para Body Systems Corporate Wellness",
+    url: "/especialistas/MarimarB.jpg",
+  },
+  {
+    nombre: "Ana Elizondo",
+    titulo: "Instructora y consultora de desarollo humano",
+    especialidad:
+      "Especialista en desarrollo humano dentro de Do It, empresa de capacitación.",
+    url: "/especialistas/AnaE.jpg",
+  },
+  {
+    nombre: "Sean Dillon",
+    titulo: "Maestro  Qigong, Taichi y Kung Fu",
+    especialidad: "Director de Taichi y Qigong de la UNAM.",
+    url: "/especialistas/SeanD.jpg",
   },
 ];
 
@@ -69,7 +96,7 @@ export default function Especialistas() {
                 especialistas
               </p>
             </div>
-            <h2 className="max-w-lg mb-20 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+            <h2 className="max-w-lg mb-20 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900  md:mx-auto">
               <span className="relative inline-block">
                 <svg
                   viewBox="0 0 52 24"

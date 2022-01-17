@@ -6,7 +6,7 @@ const experiencias = [
     title: "Eneagrama 2",
     subtitle:
       "Continua profundizando el estudio del Eneagrama desde una visión integral y dinámica",
-    courseUrl: "/eneagrama2",
+    courseUrl: "/clases/eneagrama2",
     img: {
       alt: "Mano sujetando un mapa colorido",
       url: "/enneagram.jpg",
@@ -15,7 +15,7 @@ const experiencias = [
   {
     title: "Hambre o Ansiedad",
     subtitle: "Aprende a escuchar lo que tu cuerpo te dice.",
-    courseUrl: "/hambre-o-ansiedad",
+    courseUrl: "/clases/hambre-o-ansiedad",
     img: {
       alt: "Mujer enfrente de refrigerador con la puerta abierta",
       url: "/fridge.jpg",
@@ -25,7 +25,7 @@ const experiencias = [
     title: "La voz de la abundancia",
     subtitle:
       "Sanar los patrones familiares, personales y del alma que te impiden conectar con la abundancia.",
-    courseUrl: "/voz-abundancia",
+    courseUrl: "/clases/voz-abundancia",
     img: {
       alt: "Mujer enfrente de refrigerador con la puerta abierta",
       url: "/abundancia.jpg",
@@ -34,7 +34,7 @@ const experiencias = [
   {
     title: "Empodera tus finanzas con conciencia",
     subtitle: "Aprende a identificar los patrones de finanzas desordenadas",
-    courseUrl: "/finanzas-conciencia",
+    courseUrl: "/clases/finanzas",
     img: {
       alt: "Foto que muestra una gráfica creciente",
       url: "/finanzas-conciencia.jpg",
@@ -44,7 +44,7 @@ const experiencias = [
     title: "Relaciones de dependencia",
     subtitle:
       "Sanando vínculos tóxicos. Cadenas para el corazón, la mente y la acción",
-    courseUrl: "/relaciones-dependencia",
+    courseUrl: "/clases/relaciones-dependencia",
     img: {
       alt: "Pareja agarrados de la mano con inseguridad",
       url: "/relaciones.jpg",
@@ -53,7 +53,7 @@ const experiencias = [
   {
     title: "Eneagrama",
     subtitle: "Mapa mental para el que quiere saber que pedo",
-    courseUrl: "/eneagrama",
+    courseUrl: "/clases/eneagrama",
     img: {
       alt: "Persona sujetando un mapa colorido",
       url: "/mapa.jpg",

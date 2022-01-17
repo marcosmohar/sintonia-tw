@@ -220,26 +220,41 @@ export default function Home() {
                         <p className="text-sm font-bold tracking-wider uppercase">
                           4.5 hrs - 6 expertos
                         </p>
-                        <p className="text-5xl font-extrabold text-sintopurple-200">
+                        <p className="text-5xl font-extrabold text-sintopurple-400">
                           Básico
                         </p>
                       </div>
                       <div className="flex items-center justify-center w-24 h-24 rounded-full bg-purple-50">
                         <svg
                           className="w-10 h-10 text-sintopurple-400"
-                          viewBox="0 0 24 24"
-                          strokeLinecap="round"
-                          strokeWidth="2"
+                          viewBox="0 0 25 25"
                         >
-                          <path
-                            d="M12,7L12,7 c-1.657,0-3-1.343-3-3v0c0-1.657,1.343-3,3-3h0c1.657,0,3,1.343,3,3v0C15,5.657,13.657,7,12,7z"
-                            fill="none"
-                            stroke="currentColor"
+                          <rect
+                            width="5.25"
+                            height="11.5"
+                            x=".5"
+                            y="13"
+                            fill="#4C3879"
+                            stroke="#4C3879"
+                            rx="1.5"
                           />
-                          <path
-                            d="M15,23H9v-5H7v-6 c0-1.105,0.895-2,2-2h6c1.105,0,2,0.895,2,2v6h-2V23z"
-                            fill="none"
-                            stroke="currentColor"
+                          <rect
+                            width="5.25"
+                            height="17.5"
+                            x="9.875"
+                            y="7"
+                            fill="#dbd7e4"
+                            stroke="#4C3879"
+                            rx="1.5"
+                          />
+                          <rect
+                            width="5.25"
+                            height="24"
+                            x="19.25"
+                            y=".5"
+                            fill="#dbd7e4"
+                            stroke="#4C3879"
+                            rx="1.5"
                           />
                         </svg>
                       </div>
@@ -445,39 +460,34 @@ export default function Home() {
                       <div className="flex items-center justify-center w-24 h-24 rounded-full bg-purple-50">
                         <svg
                           className="w-10 h-10 text-sintopurple-400"
-                          viewBox="0 0 24 24"
-                          strokeLinecap="round"
-                          strokeWidth="2"
+                          viewBox="0 0 25 25"
                         >
-                          <path
-                            d="M4,7L4,7 C2.895,7,2,6.105,2,5v0c0-1.105,0.895-2,2-2h0c1.105,0,2,0.895,2,2v0C6,6.105,5.105,7,4,7z"
-                            fill="none"
-                            stroke="currentColor"
+                          <rect
+                            width="5.25"
+                            height="11.5"
+                            x=".5"
+                            y="13"
+                            fill="#4C3879"
+                            stroke="#4C3879"
+                            rx="1.5"
                           />
-                          <path
-                            d="M6,21H3v-4 l-2,0v-5c0-1.105,0.895-2,2-2h1"
-                            fill="none"
-                            stroke="currentColor"
+                          <rect
+                            width="5.25"
+                            height="17.5"
+                            x="9.875"
+                            y="7"
+                            fill="#4C3879"
+                            stroke="#4C3879"
+                            rx="1.5"
                           />
-                          <path
-                            d="M20,7L20,7 c1.105,0,2-0.895,2-2v0c0-1.105-0.895-2-2-2h0c-1.105,0-2,0.895-2,2v0C18,6.105,18.895,7,20,7z"
-                            fill="none"
-                            stroke="currentColor"
-                          />
-                          <path
-                            d="M18,21h3v-4 l2,0v-5c0-1.105-0.895-2-2-2h-1"
-                            fill="none"
-                            stroke="currentColor"
-                          />
-                          <path
-                            d="M12,7L12,7 c-1.657,0-3-1.343-3-3v0c0-1.657,1.343-3,3-3h0c1.657,0,3,1.343,3,3v0C15,5.657,13.657,7,12,7z"
-                            fill="none"
-                            stroke="currentColor"
-                          />
-                          <path
-                            d="M15,23H9v-6H7v-5 c0-1.105,0.895-2,2-2h6c1.105,0,2,0.895,2,2v6h-2V23z"
-                            fill="none"
-                            stroke="currentColor"
+                          <rect
+                            width="5.25"
+                            height="24"
+                            x="19.25"
+                            y=".5"
+                            fill="#dbd7e4"
+                            stroke="#4C3879"
+                            rx="1.5"
                           />
                         </svg>
                       </div>
@@ -780,26 +790,41 @@ export default function Home() {
                         <p className="text-sm font-bold tracking-wider uppercase">
                           10.25 hrs - 14 expertos
                         </p>
-                        <p className="text-5xl font-extrabold text-sintopurple-200">
+                        <p className="text-5xl font-extrabold text-sintopurple-400">
                           Integral
                         </p>
                       </div>
                       <div className="flex items-center justify-center w-24 h-24 rounded-full bg-purple-50">
                         <svg
-                          className="w-10 h-10 text-sintopurple-600"
-                          viewBox="0 0 24 24"
-                          strokeLinecap="round"
-                          strokeWidth="2"
+                          className="w-10 h-10 text-sintopurple-400"
+                          viewBox="0 0 25 25"
                         >
-                          <path
-                            d="M12,7L12,7 c-1.657,0-3-1.343-3-3v0c0-1.657,1.343-3,3-3h0c1.657,0,3,1.343,3,3v0C15,5.657,13.657,7,12,7z"
-                            fill="none"
-                            stroke="currentColor"
+                          <rect
+                            width="5.25"
+                            height="11.5"
+                            x=".5"
+                            y="13"
+                            fill="#4C3879"
+                            stroke="#4C3879"
+                            rx="1.5"
                           />
-                          <path
-                            d="M15,23H9v-5H7v-6 c0-1.105,0.895-2,2-2h6c1.105,0,2,0.895,2,2v6h-2V23z"
-                            fill="none"
-                            stroke="currentColor"
+                          <rect
+                            width="5.25"
+                            height="17.5"
+                            x="9.875"
+                            y="7"
+                            fill="#4C3879"
+                            stroke="#4C3879"
+                            rx="1.5"
+                          />
+                          <rect
+                            width="5.25"
+                            height="24"
+                            x="19.25"
+                            y=".5"
+                            fill="#4C3879"
+                            stroke="#4C3879"
+                            rx="1.5"
                           />
                         </svg>
                       </div>
