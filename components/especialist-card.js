@@ -1,8 +1,4 @@
-import Modal from "./modal";
-import { useState } from "react";
-
 export default function Especialista(props) {
-  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
@@ -17,15 +13,6 @@ export default function Especialista(props) {
           <p className="mb-4 text-xs tracking-wide text-gray-400">
             {props.especialidad}
           </p>
-          <button
-            onClick={() => setShowModal(true)}
-            className="w-1/2 rounded mx-auto mt-8 py-1 px-2 bg-green-200 text-green-700"
-          >
-            Open Modal
-          </button>
-          <Modal onClose={() => setShowModal(false)} show={showModal}>
-            Semblanza
-          </Modal>
         </div>
       </div>
     </>
