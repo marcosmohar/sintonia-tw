@@ -17,7 +17,7 @@ const Modal = ({ show, onClose, children, title }) => {
     <div className="fixed z-20 inset-0 overflow-y-auto">
       <div className="flex items-center justify-center min-h-screen">
         <div className="fixed inset-0 bg-black opacity-30 z-20"></div>
-        <div className="bg-white rounded p-3 max-w-sm md:max-w-6xl mx-auto relative flex flex-wrap lg:flex-nowrap z-30 mt-16 space-y-2">
+        <div className="bg-white rounded p-3 max-w-sm lg:max-w-6xl mx-auto relative flex flex-wrap lg:flex-nowrap z-30 mt-16 space-y-2">
           <button
             href="#"
             onClick={handleCloseClick}
