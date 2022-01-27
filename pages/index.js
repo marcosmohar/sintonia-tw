@@ -119,7 +119,7 @@ export default function Home() {
                     />
                   </svg>
                 </span>{" "}
-                Algunos de nuestros talleres anteriores público
+                Algunos de nuestros talleres
               </h2>
             </div>
             <div className="max-w-screen-xl p-4 bg-transparent mx-auto px-4 sm:px-6 lg:px-8 relative py-10 ">

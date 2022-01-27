@@ -75,7 +75,7 @@ export default function Clases() {
       </section>
       <div className="text-2xl font-semibold text-center py-12 text-white bg-sintopurple-700">
         <p className="border-l-8 border-sintopurple-200 max-w-3xl mx-auto py-4">
-          Aquí podrás consultar el catálogo de nuestras experiencias anteriores
+          Experiencias anteriores
         </p>
       </div>
       <ClassList experiencias={experiencias} />

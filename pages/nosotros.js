@@ -213,15 +213,26 @@ export default function Nosotros() {
                   <div className="flex-1">
                     <a href="#" className="block mt-2">
                       <p className="text-xl font-semibold text-neutral-600">
-                        {" "}
-                        Marcos Mohar Fresán{" "}
+                        Marcos Mohar Fresán
                       </p>
                       <p className="mt-3 text-base text-gray-500">
-                        {" "}
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Sint harum rerum voluptatem quo recusandae magni placeat
-                        saepe molestiae, sed excepturi cumque corporis
-                        perferendis hic.{" "}
+                        Quiero encontrar la forma en que las personas puedan
+                        trabajar su desarrollo personal de una manera más
+                        sencilla y accesible
+                      </p>
+                      <p className="mt-3 text-base text-gray-500">
+                        Biólogo de formación, desarrollador web de profesión
+                        siempre buscando la forma más adecuada de hacer las
+                        cosas dependiendo de la situación o el problema a
+                        solucionar
+                      </p>
+                      <p className="mt-3 text-base text-gray-500">
+                        <span className="text-sintogreen-500 font-semibold">
+                          ¿Mi misión? ​
+                        </span>
+                        Hacer llegar la información a tanta gente como sea
+                        posible, adecuando los contenidos para que sean de fácil
+                        aprendizaje
                       </p>
                     </a>
                   </div>

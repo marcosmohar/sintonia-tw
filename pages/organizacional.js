@@ -969,7 +969,7 @@ export default function Organizacional() {
                   <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                     Por qué invertir
                     <br className="hidden md:block" />
-                    en{" "}
+                    <span> en </span>
                     <span className="inline-block text-sintopurple-400">
                       bienestar estratégico
                     </span>
@@ -1389,13 +1389,8 @@ export default function Organizacional() {
             <div className="max-w-screen-lg px-4 md:px-8 mx-auto">
               <div className="mb-10 md:mb-16">
                 <h2 className="text-gray-800 text-3xl lg:text-3xl font-bold text-center mb-4 md:mb-6">
-                  Catálogo{" "}
+                  Temas más populares
                 </h2>
-
-                <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-                  A continuación se presenta el listado de temas sobre los que
-                  orientamos nuestras experiencias de bienestar
-                </p>
               </div>
 
               <div className="flex flex-wrap flex-row-reverse justify-center items-center gap-4 sm:gap-0">
