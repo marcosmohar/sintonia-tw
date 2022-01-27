@@ -20,6 +20,7 @@ class MyDocument extends Document {
         </Head>
         <body className="font-poppins">
           <Main />
+          <div id="modal" className="z-20"></div>
           <NextScript />
         </body>
       </Html>

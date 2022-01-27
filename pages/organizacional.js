@@ -1,8 +1,12 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import Cliente from "../components/clients";
+import Paquetes from "../components/paquetes";
+import Modal from "../components/modal";
+import { useState } from "react";
 
 export default function Organizacional() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <Head>
@@ -655,8 +659,6 @@ export default function Organizacional() {
               </div>
             </div>
           </div>
-          <div className="py-20"></div>
-          <div className="container max-w-6xl mx-auto"></div>
         </section>
 
         <section className="py-20 ">
@@ -809,6 +811,19 @@ export default function Organizacional() {
                         experiencia. Incluye anfitrion de Sintonia en cada
                         sesión
                       </p>
+
+                      <button
+                        onClick={() => setShowModal(true)}
+                        className="w-1/2 rounded mx-auto mt-8 py-1 px-2 bg-pink-500 text-pink-50"
+                      >
+                        Open Modal
+                      </button>
+                      <Modal
+                        onClose={() => setShowModal(false)}
+                        show={showModal}
+                      >
+                        <Paquetes></Paquetes>
+                      </Modal>
                     </div>
                   </div>
                   <div className="p-4 xl:w-1/4 md:w-1/3 w-full">

@@ -63,7 +63,7 @@ const personas = [
     url: "/especialistas/IndraA.jpg",
   },
   {
-    nombre: "Marimar Berj[on",
+    nombre: "Marimar Berjón",
     titulo: "Lic. en Nutrición y ciencia de los Alimentos",
     especialidad:
       "Conferencista en el area de nutrición laboral para Body Systems Corporate Wellness",
