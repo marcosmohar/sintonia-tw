@@ -6,21 +6,24 @@ export default function Footer() {
       <div className="container max-w-7xl mx-auto md:px-4 border-box flex flex-col">
         <div className="md:flex md:mt-16 flex-wrap justify-around mb-4 py-12 text-center md:text-left">
           <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
+            <img src="logo-blanco-transparente.png" alt="" className="h-40" />
+          </div>
+          <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
             <div className="text-purple-300 font-semibold mb-2">Clases</div>
             <ul className="list-reset leading-normal">
               <li className="hover:text-purple-200 text-sm text-purple-100">
-                <Link href="/clases/empodera-tus-finanzas">
+                <Link href="/clases/finanzas">
                   <a>Empodera tus Finanzas</a>
                 </Link>
               </li>
               <li className="hover:text-purple-200 text-sm text-purple-100">
-                <Link href="/clases/relaciones-de-dependencia">
+                <Link href="/clases/relaciones-dependencia">
                   <a>Relaciones de dependencia</a>
                 </Link>
               </li>
               <li className="hover:text-purple-200 text-sm text-purple-100">
-                <Link href="/clases/limpieza-karma">
-                  <a>Limpieza kármica sexual</a>
+                <Link href="/clases/eneagrama2">
+                  <a>Eneagrama 2</a>
                 </Link>
               </li>
               <li className="hover:text-purple-200 text-sm text-purple-100">
@@ -37,31 +40,6 @@ export default function Footer() {
                 <Link href="/clases/hambre-o-ansiedad">
                   <a>¿Hambre o Ansiedad?</a>
                 </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
-            <div className="text-purple-300 mb-1 font-semibold">
-              Especialistas
-            </div>
-            <ul className="list-reset leading-normal">
-              <li className="hover:text-purple-200 text-sm text-purple-100">
-                <a href="/especialistas#mariana">Mariana Canto</a>
-              </li>
-              <li className="hover:text-purple-200 text-sm text-purple-100">
-                <a href="/especialistas#dorana">Dorana Carrera</a>
-              </li>
-              <li className="hover:text-purple-200 text-sm text-purple-100">
-                <a href="/especialistas#marimar">Marimar Berjón</a>
-              </li>
-              <li className="hover:text-purple-200 text-sm text-purple-100">
-                <a href="/especialistas#veva">Genoveva Álvarez</a>
-              </li>
-              <li className="hover:text-purple-200 text-sm text-purple-100">
-                <a href="/especialistas#geni">Maria Eugenia Márquez</a>
-              </li>
-              <li className="hover:text-purple-200 text-sm text-purple-100">
-                <a href="/especialistas#alex">Alejandro Villalba</a>
               </li>
             </ul>
           </div>
