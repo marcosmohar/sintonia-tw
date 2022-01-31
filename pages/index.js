@@ -48,7 +48,7 @@ export default function Home() {
                   ¿Qué es Sintonía?
                 </h2>
                 <img
-                  src="/handshake.jpg"
+                  src="/rainbow-night.jpg"
                   alt=""
                   className="w-full rounded-lg shadow-lg my-10"
                 />
