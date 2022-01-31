@@ -32,7 +32,7 @@ export default function Organizacional() {
                   </p>
                   <div className="relative flex flex-col sm:flex-row sm:space-x-4">
                     <a
-                      href="#_"
+                      href="#contacto"
                       className="flex items-center px-6 py-3 rounded-md bg-green-600 text-green-50 border-none hover:bg-green-200 hover:text-green-500"
                     >
                       CONTACTANOS
@@ -1697,7 +1697,9 @@ export default function Organizacional() {
 
         <section className="py-20">
           <div className="max-w-md text-center mx-auto">
-            <h3 className="font-semibold text-3xl mb-1">CONTÁCTANOS</h3>
+            <h3 className="font-semibold text-3xl mb-1" id="contacto">
+              CONTÁCTANOS
+            </h3>
             <hr className="h-2 w-1/3 mx-auto bg-sintogreen-500 mb-6" />
             <p>
               Nosotros te ayudaremos a diseñar soluciones de bienestar a la
