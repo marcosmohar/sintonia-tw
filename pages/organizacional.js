@@ -4,6 +4,7 @@ import Cliente from "../components/clients";
 import Paquetes from "../components/paquetes";
 import Modal from "../components/modal";
 import { useState } from "react";
+import ContactForm from "../components/contactForm";
 
 export default function Organizacional() {
   const [showModal, setShowModal] = useState(false);
@@ -1706,101 +1707,8 @@ export default function Organizacional() {
               medida
             </p>
           </div>
-          <div className="w-full md:w-96 md:max-w-full mx-auto ">
-            <div className=" border-sintopurple-500 border-4 sm:rounded-md p-10">
-              <form method="POST" action="https://herotofu.com/start">
-                <label className="block mb-6">
-                  <span className="text-gray-700">Nombre:</span>
-                  <input
-                    type="text"
-                    name="name"
-                    className="block w-full mt-1 border-gray-700  rounded-md shadow-smfocus:border-indigo-300focus:ringfocus:ring-indigo-200focus:ring-opacity-50"
-                    placeholder="Pedro Páramo"
-                  />
-                </label>
-                <label className="block mb-6">
-                  <span className="text-gray-700">Correo electrónico</span>
-                  <input
-                    name="email"
-                    type="email"
-                    className="
-            block
-            w-full
-            mt-1
-            border-purple-300
-            rounded-md
-            shadow-sm
-            focus:border-sintopurple-300
-            focus:ring
-            focus:ring-sintopurple-200
-            focus:ring-opacity-50
-          "
-                    placeholder="usuario@example.com"
-                    required
-                  />
-                </label>
-                <label className="block mb-6">
-                  <span className="text-gray-700">Empresa</span>
-                  <input
-                    name="empresa"
-                    type="text"
-                    className="
-            block
-            w-full
-            mt-1
-            border-purple-300
-            rounded-md
-            shadow-sm
-            focus:border-sintopurple-300
-            focus:ring
-            focus:ring-sintopurple-200
-            focus:ring-opacity-50
-          "
-                    placeholder="IBM"
-                    required
-                  />
-                </label>
-                <label className="block mb-6">
-                  <span className="text-gray-700">Mensaje</span>
-                  <textarea
-                    name="message"
-                    className="
-                          block
-                          w-full
-                          mt-1
-                          border-gray-300
-                          rounded-md    
-                          shadow-sm
-                          focus:border-indigo-300
-                          focus:ring
-                          focus:ring-indigo-200
-                          focus:ring-opacity-50
-                          "
-                    rows="3"
-                    placeholder="Cuéntanos que esperas obtener de Sintonía..."
-                  ></textarea>
-                </label>
-                <div>
-                  <button
-                    type="submit"
-                    className="
-            h-10
-            px-5
-            text-indigo-100
-            bg-sintogreen-700
-            rounded-lg
-            transition-colors
-            duration-150
-            focus:shadow-outline
-            hover:bg-sintogreen-800
-          "
-                  >
-                    Contáctanos
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
+
+          <ContactForm />
         </section>
       </Layout>
     </>
