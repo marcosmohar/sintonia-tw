@@ -1,9 +1,19 @@
 import Layout from "../../components/layout";
+import Head from "next/head";
+
+import { initiateCheckout } from "../../lib/payments";
 
 export default function Transgeneracional() {
   return (
     <Layout>
-      <div className="mb-16">
+      <Head>
+        <title>Curso Transgeneracional</title>
+        <meta
+          name="description"
+          content="Curso Transgeneracional: Descubre la influencia que tienen los programas que heredaste de tus ancestros y actualízalos"
+        />
+      </Head>
+      <div className="mb-14">
         <div className="bg-sintopurple-100 relative">
           <svg
             className="absolute inset-0 h-full max-w-full hidden lg:block"
@@ -352,7 +362,7 @@ export default function Transgeneracional() {
               <img
                 src="/transgeneracional.jpg"
                 alt=""
-                className="rounded-lg mb-6 drop-shadow-2xl"
+                className="rounded-lg mb-6  shadow-2xl"
               />
               <div>
                 <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-sintogreen-700 uppercase rounded-full bg-sintogreen-50">
@@ -391,17 +401,36 @@ export default function Transgeneracional() {
                 Descubre la influencia que tienen los programas que heredaste de
                 tus ancestros y actualízalos
               </p>
-              <p className="text-base text-sintopurple-700 md:text-lg font-medium">
-                Especialista:{" "}
-                <span className="font-semibold text-white">
-                  Ivana López Frascari
-                </span>
-              </p>
+              <div className="mx-auto flex flex-col md:flex-row items-center max-w-md justify-between bg-sintopurple-500 shadow-lg relative py-4 md:py-0 md:rounded-full md:pr-2">
+                <img
+                  className="w-20 h-20 bg-gray-300 rounded-full xl:w-24 xl:h-24"
+                  src="/especialistas/IvanaLF.jpeg"
+                  alt=""
+                />
+                <div className="flex flex-1 flex-col text-left">
+                  <h3 className="pl-6 text-sm font-semibold leading-5 text-sintogreen-200 sm:text-base">
+                    Ivana López Frascari
+                  </h3>
+                  <div className="relative pl-6">
+                    <p className="mt-2 text-sm text-white">
+                      Terapeuta holística, bioneuroemoción®, nueva medicina
+                      germánica y más
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="flex items-center sm:justify-center">
               <button
+                onClick={() => {
+                  initiateCheckout({
+                    lineItems: [
+                      { price: "price_1KRSYmEKELawa4HGoLaJDBAT", quantity: 1 },
+                    ],
+                  });
+                }}
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-400 focus:shadow-outline focus:outline-none"
+                className="uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
               >
                 Inscribete Ahora
               </button>
@@ -427,7 +456,7 @@ export default function Transgeneracional() {
                   <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                 </svg>
               </div>
-              <p className="font-bold tracking-wide text-gray-800">$2,200</p>
+              <p className="font-bold tracking-wide text-gray-800">$1000</p>
             </div>
             <div className="inline-block p-8 text-center">
               <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
@@ -468,7 +497,7 @@ export default function Transgeneracional() {
                 </svg>
               </div>
               <p className="font-bold tracking-wide text-gray-800">
-                20 de octubre
+                24 de febrero
               </p>
             </div>
           </div>
@@ -520,7 +549,7 @@ export default function Transgeneracional() {
         <div className="flex items-center sm:justify-center">
           <button
             type="submit"
-            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-400 focus:shadow-outline focus:outline-none"
+            className="uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
           >
             Inscribete Ahora
           </button>

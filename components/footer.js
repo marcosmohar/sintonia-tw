@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container max-w-7xl mx-auto md:px-4 border-box flex flex-col">
         <div className="md:flex md:mt-16 flex-wrap justify-around mb-4 py-12 text-center md:text-left">
           <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
-            <img src="logo-blanco-transparente.png" alt="" className="h-40" />
+            <img src="/logo-blanco-transparente.png" alt="" className="h-40" />
           </div>
           <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
             <div className="text-purple-300 font-semibold mb-2">Clases</div>
