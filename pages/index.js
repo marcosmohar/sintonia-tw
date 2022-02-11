@@ -16,6 +16,20 @@ export default function Home() {
       <div className="bg-sintopurple-500 w-full text-white z-10">
         <Hero />
         <main className="flex flex-col items-center justify-center w-full flex-1 px-4 sm:px-20 text-center lg:my-40 ">
+          <section className="mb-40 mt-10">
+            <div className="container max-w-2xl mx-auto">
+              <h2 className="max-w-xl mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-green-200 sm:text-4xl md:mx-auto lg:text-5xl">
+                Cursos disponibles
+              </h2>
+              <a href="/clases/transgeneracional">
+                <img
+                  src="/transgeneracional-card.jpg"
+                  alt=""
+                  className="w-full rounded-lg shadow-lg my-10  transition-transform  hover:scale-105 hover:shadow-2xl duration-300 ease-out"
+                />
+              </a>
+            </div>
+          </section>
           <section className="min-h-full relative mb-40">
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
               <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
