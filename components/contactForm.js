@@ -71,7 +71,7 @@ export default function ContactForm() {
                   message: "El email es requerido",
                 },
                 minLength: {
-                  value: 8,
+                  value: 7,
                   message: "Demasiado corto para ser email",
                 },
                 maxLength: {
@@ -116,13 +116,13 @@ export default function ContactForm() {
                   value: true,
                   message: "Debes ingresar un mensaje",
                 },
+                minLength: {
+                  value: 30,
+                  message: "Tu mensaje debe ser de mínimo 30 caracteres!",
+                },
                 maxLength: {
                   value: 1500,
                   message: "Tu mensaje no puede ser mayor a 1500 caracteres",
-                },
-                minLength: {
-                  value: 20,
-                  message: "Tu mensaje debe ser más largo!",
                 },
               })}
               className={`block w-full shadow py-3 px-4 placeholder-gray-500 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md focus:outline-none focus:ring-2 ${
@@ -131,7 +131,7 @@ export default function ContactForm() {
               placeholder="Tu mensaje"
             ></textarea>
             <span className="text-red-400 text-sm py-2">
-              {errors?.message?.message}
+              {errors?.mensaje?.message}
             </span>
           </div>
           <div>
