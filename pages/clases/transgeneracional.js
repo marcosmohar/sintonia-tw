@@ -425,7 +425,7 @@ export default function Transgeneracional() {
                 onClick={() => {
                   initiateCheckout({
                     lineItems: [
-                      { price: "price_1KRSYmEKELawa4HGoLaJDBAT", quantity: 1 },
+                      { price: "price_1KRS7mEKELawa4HGLQjT5TWA", quantity: 1 },
                     ],
                   });
                 }}

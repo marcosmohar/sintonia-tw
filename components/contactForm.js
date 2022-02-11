@@ -114,7 +114,7 @@ export default function ContactForm() {
               {...register("mensaje", {
                 required: {
                   value: true,
-                  message: "Debes ingresar un mensaje",
+                  message: "El mensaje no puede ir vacío",
                 },
                 minLength: {
                   value: 30,
