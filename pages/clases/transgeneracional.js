@@ -497,7 +497,7 @@ export default function Transgeneracional() {
                 </svg>
               </div>
               <p className="font-bold tracking-wide text-gray-800">
-                24 de febrero
+                15 y 17 de Marzo
               </p>
             </div>
           </div>
