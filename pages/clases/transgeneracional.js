@@ -548,6 +548,13 @@ export default function Transgeneracional() {
         </div>
         <div className="flex items-center sm:justify-center">
           <button
+            onClick={() => {
+              initiateCheckout({
+                lineItems: [
+                  { price: "price_1KRS7mEKELawa4HGLQjT5TWA", quantity: 1 },
+                ],
+              });
+            }}
             type="submit"
             className="uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
           >
