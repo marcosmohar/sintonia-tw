@@ -458,7 +458,7 @@ export default function Transgeneracional() {
               </div>
               <p className="font-bold tracking-wide text-gray-800">$1000</p>
             </div>
-            <div className="inline-block p-8 text-center">
+            <div className="flex flex-col items-center justify-center p-8 text-center">
               <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
                 <svg
                   className="w-10 h-10 text-deep-purple-accent-400"
@@ -476,10 +476,10 @@ export default function Transgeneracional() {
               </div>
               <p className="font-bold tracking-wide text-gray-800">
                 2 Masterclass <br />
-                <span className="text-sm font-normal">(2hr cada una)</span>
               </p>
+              <span className="text-sm font-normal">(2 hr cada una)</span>
             </div>
-            <div className="inline-block p-8 text-center">
+            <div className="flex flex-col items-center justify-center p-8 text-center">
               <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
                 <svg
                   className="w-6 h-6 text-sintopurple-700"
@@ -497,8 +497,9 @@ export default function Transgeneracional() {
                 </svg>
               </div>
               <p className="font-bold tracking-wide text-gray-800">
-                15 y 17 de Marzo
+                15 y 17 de Marzo <br />
               </p>
+              <span className="text-sm font-normal">(7-9 PM)</span>
             </div>
           </div>
         </div>

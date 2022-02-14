@@ -5,10 +5,10 @@ export default function Footer() {
     <footer className="bg-sintopurple-700 text-white w-full sticky bottom-0 left-0 z-0">
       <div className="container max-w-7xl mx-auto md:px-4 border-box flex flex-col">
         <div className="md:flex md:mt-16 flex-wrap justify-around mb-4 py-12 text-center md:text-left">
-          <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
+          <div className="md:w-1/2 lg:w-1/3 h-auto mt-5 mb-6 md:mt-0">
             <img src="/logo-blanco-transparente.png" alt="" className="h-40" />
           </div>
-          <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
+          <div className="md:w-1/2 lg:w-1/3 h-auto mt-5 mb-6 md:mt-0">
             <div className="text-purple-300 font-semibold mb-2">Clases</div>
             <ul className="list-reset leading-normal">
               <li className="hover:text-purple-200 text-sm text-purple-100">
@@ -43,7 +43,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
+          <div className="md:w-1/2 lg:w-1/3 h-auto mt-5 mb-6 md:mt-0">
             <h3 className="text-purple-300 mb-2 font-semibold">Contáctanos</h3>
             <ul className="list-reset leading-normal">
               <li className="hover:text-purple-200 text-sm text-purple-100 ">
@@ -148,24 +148,6 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-          <div className="md:w-1/2 lg:w-1/4 h-auto mt-5 mb-6 md:mt-0">
-            <h3 className="text-purple-300 mb-2 font-semibold">
-              Nuestro Newsletter
-            </h3>
-            <p className="hover:text-purple-200 text-sm text-purple-100 leading-normal">
-              Entérate de nuestras nuevas clases
-            </p>
-            <div className="mt-2 w-64 mx-auto lg:mx-0">
-              <input
-                type="text"
-                className="w-full py-3 px-4 rounded text-grey-dark text-sm h-auto"
-                placeholder="usuario@dominio.com"
-              />
-              <button className="w-full bg-green-700 mt-1 uppercase text-green-100 rounded h-auto text-xs p-3">
-                Registrarse
-              </button>
-            </div>
           </div>
         </div>
       </div>
