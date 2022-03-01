@@ -1,9 +1,21 @@
 import Layout from "../../components/layout";
 import Head from "next/head";
+import Widgetcourse from "../../components/curso-widget";
+import { useEffect, useRef } from "react";
+import { useRouter } from "next/router";
+import Instrucciones from "../../components/instrucciones";
 
 import { initiateCheckout } from "../../lib/payments";
 
 export default function Transgeneracional() {
+  const payButton = useRef();
+  const handleScroll = (ref) => {
+    window.scrollTo({
+      behavior: "smooth",
+      top: ref.current.offsetTop,
+    });
+  };
+
   return (
     <Layout>
       <Head>
@@ -421,19 +433,12 @@ export default function Transgeneracional() {
               </div>
             </div>
             <div className="flex items-center sm:justify-center">
-              <button
-                onClick={() => {
-                  initiateCheckout({
-                    lineItems: [
-                      { price: "price_1KRSYmEKELawa4HGoLaJDBAT", quantity: 1 },
-                    ],
-                  });
-                }}
-                type="submit"
+              <a
+                href="#pago"
                 className="uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
               >
                 Inscribete Ahora
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -458,7 +463,7 @@ export default function Transgeneracional() {
               </div>
               <p className="font-bold tracking-wide text-gray-800">$1000</p>
             </div>
-            <div className="inline-block p-8 text-center">
+            <div className="flex flex-col items-center justify-center p-8 text-center">
               <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
                 <svg
                   className="w-10 h-10 text-deep-purple-accent-400"
@@ -475,11 +480,11 @@ export default function Transgeneracional() {
                 </svg>
               </div>
               <p className="font-bold tracking-wide text-gray-800">
-                2 Masterclass <br />
-                <span className="text-sm font-normal">(2hr cada una)</span>
+                2 Masterclass
               </p>
+              <span className="text-sm font-normal">(2hr cada una)</span>
             </div>
-            <div className="inline-block p-8 text-center">
+            <div className="flex flex-col items-center justify-center p-8 text-center">
               <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
                 <svg
                   className="w-6 h-6 text-sintopurple-700"
@@ -497,8 +502,9 @@ export default function Transgeneracional() {
                 </svg>
               </div>
               <p className="font-bold tracking-wide text-gray-800">
-                24 de febrero
+                15 y 17 de marzo
               </p>
+              <span class="text-sm font-normal">(7-9 PM)</span>
             </div>
           </div>
         </div>
@@ -526,7 +532,7 @@ export default function Transgeneracional() {
           tu realidad cotidiana.
         </p>
       </section>
-      <section className="max-w-2xl mx-auto mb-20 px-2 pb-10">
+      <section className="max-w-2xl mx-auto px-2">
         <div className="mb-10">
           <h2 className=" mb-4 font-sans text-2xl lg:text-3xl font-bold leading-none tracking-tight text-gray-900  md:mx-auto">
             ¿Qué necesito para tomar la clase?
@@ -546,14 +552,32 @@ export default function Transgeneracional() {
             equilibrados.
           </p>
         </div>
-        <div className="flex items-center sm:justify-center">
-          <button
-            type="submit"
-            className="uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
-          >
-            Inscribete Ahora
-          </button>
-        </div>
+      </section>
+      <section id="pago" className="mx-auto mb-30 px-2 pb-10">
+        <Widgetcourse
+          avatar="/especialistas/IvanaLF.jpeg"
+          especialista="Ivana Lopez Frascari"
+          trabajo="Psicoterapeuta humanista"
+          sesiones="2"
+          costo="1000"
+          fecha="15 - 17 marzo"
+          button={
+            <button
+              onClick={() => {
+                initiateCheckout({
+                  lineItems: [
+                    { price: "price_1KRSYmEKELawa4HGoLaJDBAT", quantity: 1 },
+                  ],
+                });
+              }}
+              type="submit"
+              className="rounded-full mx-auto uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
+            >
+              Pagar Ahora
+            </button>
+          }
+          instrucciones={<Instrucciones />}
+        ></Widgetcourse>
       </section>
     </Layout>
   );
