@@ -433,7 +433,7 @@ export default function Transgeneracional() {
               </div>
             </div>
             <div className="flex items-center sm:justify-center">
-             <a
+              <a
                 href="#pago"
                 className="uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
               >
@@ -504,7 +504,7 @@ export default function Transgeneracional() {
               <p className="font-bold tracking-wide text-gray-800">
                 15 y 17 de marzo
               </p>
-              <span class="text-sm font-normal">(7-9 PM)</span>
+              <span className="text-sm font-normal">(7-9 PM)</span>
             </div>
           </div>
         </div>
