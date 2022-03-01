@@ -557,7 +557,7 @@ export default function Transgeneracional() {
         <Widgetcourse
           avatar="/especialistas/IvanaLF.jpeg"
           especialista="Ivana Lopez Frascari"
-          trabajo="Psicoterapeuta humanista"
+          trabajo="Terapeuta holística, bioneuroemoción®"
           sesiones="2"
           costo="1000"
           fecha="15 - 17 marzo"
