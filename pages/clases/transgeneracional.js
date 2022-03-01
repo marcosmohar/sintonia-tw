@@ -8,14 +8,6 @@ import Instrucciones from "../../components/instrucciones";
 import { initiateCheckout } from "../../lib/payments";
 
 export default function Transgeneracional() {
-  const payButton = useRef();
-  const handleScroll = (ref) => {
-    window.scrollTo({
-      behavior: "smooth",
-      top: ref.current.offsetTop,
-    });
-  };
-
   return (
     <Layout>
       <Head>
@@ -566,14 +558,14 @@ export default function Transgeneracional() {
               onClick={() => {
                 initiateCheckout({
                   lineItems: [
-                    { price: "price_1KRSYmEKELawa4HGoLaJDBAT", quantity: 1 },
+                    { price: "price_1KRS7mEKELawa4HGLQjT5TWA", quantity: 1 },
                   ],
                 });
               }}
               type="submit"
               className="rounded-full mx-auto uppercase inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 shadow-md bg-sintogreen-600 hover:bg-sintogreen-700 focus:shadow-outline focus:outline-none hover:scale-105 hover:-translate-y-1"
             >
-              Pagar Ahora
+              Inscríbete Ahora
             </button>
           }
           instrucciones={<Instrucciones />}
