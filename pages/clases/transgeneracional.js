@@ -546,6 +546,7 @@ export default function Transgeneracional() {
         </div>
       </section>
       <section id="pago" className="mx-auto mb-30 px-2 pb-10">
+        {/*
         <Widgetcourse
           avatar="/especialistas/IvanaLF.jpeg"
           especialista="Ivana Lopez Frascari"
@@ -558,7 +559,7 @@ export default function Transgeneracional() {
               onClick={() => {
                 initiateCheckout({
                   lineItems: [
-                    { price: "price_1KRS7mEKELawa4HGLQjT5TWA", quantity: 1 },
+                    {},
                   ],
                 });
               }}
@@ -569,7 +570,7 @@ export default function Transgeneracional() {
             </button>
           }
           instrucciones={<Instrucciones />}
-        ></Widgetcourse>
+        ></Widgetcourse> */}
       </section>
     </Layout>
   );
