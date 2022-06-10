@@ -3,6 +3,13 @@ import EspecialistTeam from "../components/especialistTeam";
 
 const personas = [
   {
+    nombre: "Rafael Cornú",
+    titulo: "Coaching personalizado y conferencista a nivel directivo",
+    especialidad:
+      "Estudios en Metafísica, escatología, Kabbalah y distintas practicas orientales enfocado en despertar conciencia, descubrimiento del ser y como aplicarlo de forma práctica a la vida cotidiana",
+    url: "/especialistas/RafaCornu.jpeg",
+  },
+  {
     nombre: "Alejandra Guzman",
     titulo: "Fitness coach y nutrición",
     especialidad:
